@@ -165,9 +165,9 @@ export const updateCompany = async (companyId, payload) => {
 // Industry list (supports multiple backend route variants)
 export const getIndustries = async () => {
   const endpoints = [
-    "/industry_types",
+    // "/industry_types",
     "/industry_skill/industry_types",
-    "/industry/industry_types",
+    // "/industry/industry_types",
   ];
 
   for (const endpoint of endpoints) {
